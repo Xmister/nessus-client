@@ -1,15 +1,17 @@
 PATH
   remote: .
   specs:
-    nessus-client (0.3.1)
-      excon (~> 0.45)
+    nessus-client (0.3.2)
+      excon (~> 1.5.0)
       terminal-table (= 1.4.5)
       thor (~> 1.4.0)
 
 GEM
   remote: https://rubygems.org/
   specs:
-    excon (0.112.0)
+    excon (1.5.0)
+      logger
+    logger (1.7.0)
     terminal-table (1.4.5)
     thor (1.4.0)
 
